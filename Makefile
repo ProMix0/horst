@@ -42,7 +42,7 @@ SRC		+= main.c
 SRC		+= network.c
 SRC		+= protocol_parser.c
 
-LIBS		= -lncurses -lm -luwifi
+LIBS		= -lncurses -ltinfo -lm -luwifi
 LDFLAGS		+= -Wl,-rpath,/usr/local/lib
 
 INCLUDES	= -I.
